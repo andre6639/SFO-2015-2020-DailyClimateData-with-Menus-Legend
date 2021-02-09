@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+pre {
+  font-size: 7em;
+}
+.tick line {
+  stroke: #C0C0BB;
+}
+.tick text {
+  fill: #635F5D;
+}
+.mark {
+  opacity: 0.3;
+}
+.axis-label {
+  font-size: 1em;
+  fill: #635F5D;
+}
+label,
+select {
+  font-size: 1.5em;
+}
+select option {
+  font-size: 1rem;
+}
+.menus-container {
+  font-size: .8em;
+  margin-top: 20px;
+  margin-right: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
